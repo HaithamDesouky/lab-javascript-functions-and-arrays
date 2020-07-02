@@ -123,7 +123,7 @@ function avg(arr) {
         sum += arr[i].length;
       }
     }
-    return (sum / arr.length).toFixed(2);
+    return parseFloat((sum / arr.length).toFixed(2));
   } else {
     return null;
   }
@@ -505,3 +505,5 @@ const matrix = [
   ],
   [1, 70, 54, 71, 83, 51, 54, 69, 16, 92, 33, 48, 61, 43, 52, 1, 89, 19, 67, 48]
 ];
+
+function greatestProduct(arr) {}
